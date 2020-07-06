@@ -1,0 +1,1 @@
+cmd_/home/hackerman/task1/module_hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/hackerman/task1/module_hello.ko /home/hackerman/task1/module_hello.o /home/hackerman/task1/module_hello.mod.o ;  true
