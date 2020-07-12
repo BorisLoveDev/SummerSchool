@@ -15,7 +15,7 @@ int main(int argc, char* argv[])
 		video >> frame;
 		imshow("Video here", frame);
         char c = (char)waitKey(25);
-        if (c==27)
+        if (c == 27)
             break;
     }
 
